@@ -72,7 +72,7 @@ section p {
 }
 
 /* Botões */
-a.play-button, a.discord-button {
+a.play-button, a.discord-button, a.devs-button {
     display: inline-block;
     padding: 15px 40px;
     background-color: #ff5733;
@@ -84,17 +84,25 @@ a.play-button, a.discord-button {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-a.play-button:hover, a.discord-button:hover {
-    background-color: #ffcc00;
+a.play-button:hover, a.discord-button:hover, a.devs-button:hover {
     transform: scale(1.1);
 }
 
+/* Estilos específicos dos botões */
 a.discord-button {
     background-color: #7289DA;
 }
 
 a.discord-button:hover {
     background-color: #5b6eae;
+}
+
+a.devs-button {
+    background-color: #ff33a6;
+}
+
+a.devs-button:hover {
+    background-color: #ff66c4;
 }
 
 /* Rodapé */
@@ -123,7 +131,7 @@ footer {
         padding: 30px 15px;
     }
 
-    a.play-button, a.discord-button {
+    a.play-button, a.discord-button, a.devs-button {
         font-size: 1.1em;
         padding: 12px 30px;
     }
